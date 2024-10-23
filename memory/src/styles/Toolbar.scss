@@ -1,0 +1,35 @@
+.toolbar-header {
+    min-height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toolbar-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.toolbar-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.toolbar-text {
+    margin: 0 20px;
+}
+
+.toolbar-button {
+    background-color: rgba(0, 0, 0, 0.757);
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+.toolbar-button:hover {
+    background-color: #6c757d;
+}

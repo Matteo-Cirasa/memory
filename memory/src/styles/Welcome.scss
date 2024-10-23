@@ -1,0 +1,29 @@
+.welcome-header {
+  margin-bottom: 20px;
+  background-image: url('/public/general/welcome-header.png');
+  min-height: 200px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.header-content {
+  text-align: center;
+  object-fit: cover;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+.welcome-card {
+  width: 288px;
+  height: 368px;
+  margin: 8px;
+  min-width: 288px;
+  max-width: 100%;
+  box-sizing: border-box;
+}

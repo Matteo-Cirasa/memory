@@ -1,0 +1,84 @@
+{
+    "games": [
+        {
+            "pk": "1",
+            "title": "Call Of Duty",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam recusandae labore repudiandae facere numquam consequuntur nihil inventore vel voluptatum, reprehenderit odit sed nisi aut porro perferendis totam dolor!",
+            "publishDate": "2024-07-01",
+            "misc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "color": "#ff0000",
+            "backCard": "backCard",
+            "decks": [
+                4,
+                8,
+                13
+            ],
+            "images": {
+                "src": "/cod/",
+                "cover": "cover.png",
+                "preview": "4.png",
+                "game-preview": "preview.png"
+            }
+        },
+        {
+            "pk": "2",
+            "title": "Animals",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam recusandae labore repudiandae facere numquam consequuntur nihil inventore vel voluptatum, reprehenderit odit sed nisi aut porro perferendis totam dolor!",
+            "publishDate": "2024-07-01",
+            "misc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "color": "#ff0000",
+            "backCard": "backCard",
+            "decks": [
+                4,
+                8,
+                13
+            ],
+            "images": {
+                "src": "/animals/",
+                "cover": "animals-cover.png",
+                "preview": "animal-preview.png",
+                "game-preview": "game-preview.png"
+            }
+        },
+        {
+            "pk": "3",
+            "title": "Fortnite",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam recusandae labore repudiandae facere numquam consequuntur nihil inventore vel voluptatum, reprehenderit odit sed nisi aut porro perferendis totam dolor!",
+            "publishDate": "2024-07-01",
+            "misc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "color": "#ff0000",
+            "backCard": "backCard",
+            "decks": [
+                4,
+                8,
+                13
+            ],
+            "images": {
+                "src": "/fortnite/",
+                "cover": "fortnite-cover.png",
+                "preview": "0.png",
+                "game-preview": "fortnite-preview.png"
+            }
+        },
+        {
+            "pk": "4",
+            "title": "Superheroes",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam recusandae labore repudiandae facere numquam consequuntur nihil inventore vel voluptatum, reprehenderit odit sed nisi aut porro perferendis totam dolor!",
+            "publishDate": "2024-07-01",
+            "misc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "color": "#ff0000",
+            "backCard": "backCard",
+            "decks": [
+                4,
+                8,
+                13
+            ],
+            "images": {
+                "src": "/superheroes/",
+                "cover": "superheroes-cover.png",
+                "preview": "4.png",
+                "game-preview": "superheroes-preview.png"
+            }
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+
+.card {
+    animation-duration: 0.5s;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  //Stati della carta
+  //Libreria animate.css
+  .card-inactive-on {
+    animation: flipInY;
+    animation-duration: 0.5s;
+  }
+  
+  .card-inactive-off {
+    animation: flipOutY;
+    animation-duration: 0.5s;
+  }
+  
+  .card-hidden {
+    animation: shakeX;
+    animation-duration: 1s;
+  }
+  
+  .card-discovery {
+    animation: bounceIn;
+    animation-duration: 1s;
+  }
+  
+  .card-error-engine,
+  .card-error {
+    animation: headShake;
+    animation-duration: 1s;
+  }
+  
+  .toolbarContainer,
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: calc(6 * 70px); // 6 carte * (60px larghezza + 10px margine)
+    max-width: 100%;
+  }
+  
+  .card-active.discovery-in{
+    opacity: 0.5;
+    transition: all 0.5s;
+  }

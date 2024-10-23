@@ -1,0 +1,13 @@
+@import "./styles/Dashboard.scss";
+@import "./styles/Welcome.scss";
+@import "./styles/Card.scss";
+@import "./styles/Toolbar.scss";
+@import "./styles/Ranking.scss";
+@import "./styles/GameOver.scss";
+@import "./styles/Memory.scss";
+
+body, html{
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}

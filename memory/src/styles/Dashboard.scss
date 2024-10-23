@@ -1,0 +1,77 @@
+.background-fake {
+  width: 100vw;
+  height: 40vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-size: cover; 
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.background-hover {
+  z-index: 1;
+  position: relative;
+  padding-top: 20vh;
+}
+
+.card-preview {
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgb(189, 189, 189);
+  width: 100%;
+  max-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .card-preview {
+    max-width: 200px;
+  }
+
+  .background-vspace {
+    display: none; /* Nasconde su schermi piccoli */
+  }
+
+  .background-vspace2 {
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
+  .partite-giocate {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1057px) {
+  .card-preview {
+    max-width: 250px;
+  }
+
+  .background-vspace {
+    margin-top: 12vh; /* Aggiunto spazio superiore per schermi medi */
+    height: 8vh;
+    padding-top: 8vh; /* Aggiunto padding superiore per schermi medi */
+  }
+
+  .background-vspace2 {
+    padding-top: 20px;
+    margin-top: 25px; /* Aggiunto margine superiore per schermi medi */
+  }
+
+  .partite-giocate {
+    margin-top: 25px; /* Aggiunto spazio superiore per schermi medi */
+  }
+}
+
+@media (min-width: 1058px) {
+  .background-vspace {
+    margin-top: 10vh;
+    height: 10vh;
+    padding-top: 6vh;
+  }
+
+  .background-vspace2 {
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+}
